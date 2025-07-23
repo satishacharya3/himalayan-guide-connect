@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Nepal Guide Connect Design System - All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL. Nepal-inspired color palette with mountain and cultural themes.
 */
 
 @layer base {
@@ -17,26 +17,43 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    /* Nepal-inspired primary colors - Deep blue like mountain skies */
+    --primary: 218 54% 16%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    /* Secondary - Warm earth tones */
+    --secondary: 32 21% 88%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 210 40% 96.1%;
+    --muted: 32 21% 88%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Prayer flag orange/red */
+    --accent: 14 91% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 218 54% 16%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Nepal-specific design tokens */
+    --nepal-mountain: 195 100% 95%;
+    --nepal-forest: 113 31% 45%;
+    --nepal-sunset: 25 100% 65%;
+    --nepal-prayer-flag: 14 91% 55%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(195 100% 95%), hsl(218 54% 16%));
+    --gradient-sunset: linear-gradient(45deg, hsl(25 100% 65%), hsl(14 91% 55%));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px hsl(218 54% 16% / 0.1);
+    --shadow-hero: 0 20px 25px -5px hsl(218 54% 16% / 0.3);
 
     --sidebar-background: 0 0% 98%;
 
